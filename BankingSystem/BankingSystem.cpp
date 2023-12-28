@@ -71,9 +71,9 @@ int main()
         switch (choice)
         {
         case 1:
-            cout << "\n Enter your Full name: ";
-            cin.ignore();
-            getline(cin, name);
+            cout << "\n Enter your first name: ";
+            
+            cin >>name;
             cout << "\n Enter your intital deposite: ";
             cin >> balance;
             acc = b.openaccount(name, balance);
